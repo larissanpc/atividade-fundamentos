@@ -1,0 +1,10 @@
+def numpat(n):
+  num = 0
+  for i in range(n, 0, -1):
+    num = 0
+    for j in range(0, i):
+      print(num, end=" ")
+      num = num + 1
+    print("\r")
+n = int(input('digite um número '))
+numpat(n)
